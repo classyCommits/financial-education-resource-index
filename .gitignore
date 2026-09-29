@@ -1,0 +1,21 @@
+# Local Python environment and tooling
+.venv/
+.venv-old/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.pytest-run*/
+.ruff_cache/
+
+# Downloaded source material and archived experiments
+local_archive/
+
+# Generated datasets and reports
+output/
+
+# Local settings
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
